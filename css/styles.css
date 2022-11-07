@@ -343,35 +343,30 @@ width: 270px;
     text-align: center;
     display: block;
     margin-top: 94px;
-        margin-bottom: 17px;
+    margin-bottom: 17px;
 
 }
 /* PORTFOLIO PROJECTS SECTION */
 
 .container-projects {
     width: 1200px;
-    padding-left: 215px;
-    padding-right: 215px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 94px;
-    
-
 }
 
 .projects-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     
     
  
 }
 
 .projects-item {
-    flex-basis: calc((100% - 30px)/ 3);
- 
+    flex-basis: calc((100%-30px) / 3);
+ align-items: center;
 }
-.projects-item:not(:last-child) {
-    margin-right: 30px;}
 
 .item h2 {
     margin-top: 0;
